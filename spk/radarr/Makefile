@@ -1,6 +1,6 @@
 SPK_NAME = radarr
 SPK_VERS = $(shell date +%Y%m%d)
-SPK_REV = 19
+SPK_REV = 20
 SPK_ICON = src/radarr.png
 
 REQUIRED_MIN_DSM = 5.0
@@ -18,7 +18,7 @@ SUPPORTURL = https://radarr.video/\#support
 DESCRIPTION = Radarr is a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available.
 STARTABLE = yes
 DISPLAY_NAME = Radarr
-CHANGELOG = "Enlarge the service start/stop timeout to 90 seconds."
+CHANGELOG = "1. Enlarge the service start/stop timeout to 90 seconds.<br/> 2. Update radarr to v4.2.4.6635"
 
 HOMEPAGE = https://radarr.video/
 LICENSE = GPLv3
