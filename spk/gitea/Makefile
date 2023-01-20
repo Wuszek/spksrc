@@ -11,7 +11,7 @@ CHANGELOG = "1. Update to v1.18.3."
 LICENSE = MIT
 
 DEPENDS = cross/$(SPK_NAME)
-SPK_DEPENDS = "git>=2"
+SPK_DEPENDS = "git>=2.39.1"
 
 SERVICE_USER         = auto
 SERVICE_SETUP        = src/service-setup.sh
